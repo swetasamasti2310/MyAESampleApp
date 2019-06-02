@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyAESampleApp</string>
+    <string name="title_activity_wifi_prototype">WifiPrototypeActivity</string>
+</resources>

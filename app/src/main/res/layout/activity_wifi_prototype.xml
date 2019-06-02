@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WifiPrototypeActivity">
+
+    <Button
+        android:id="@+id/enable_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Network" />
+
+    <Button
+        android:id="@+id/add_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Network" />
+
+    <Button
+        android:id="@+id/remove_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Network" />
+
+    <Button
+        android:id="@+id/new_add_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Add Network" />
+
+    <Button
+        android:id="@+id/new_remove_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Remove Network" />
+
+
+    <Button
+        android:id="@+id/update_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Network" />
+
+    <Button
+        android:id="@+id/reconnect_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reconnect" />
+
+    <Button
+        android:id="@+id/disconnect_nw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disconnect" />
+
+</LinearLayout>
